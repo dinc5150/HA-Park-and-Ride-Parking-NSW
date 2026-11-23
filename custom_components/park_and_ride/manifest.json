@@ -1,13 +1,13 @@
 {
   "domain": "park_and_ride",
   "name": "Park and Ride (Transport NSW)",
-  "codeowners": ["@your-github-username"],
+  "codeowners": ["@dinc5150"],
   "config_flow": true,
-  "documentation": "https://github.com/your-github-username/ha-park-and-ride",
+  "documentation": "https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/your-github-username/ha-park-and-ride/issues",
+  "issue_tracker": "https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW/issues",
   "requirements": [],
   "single_config_entry": true,
-  "version": "0.2.0"
+  "version": "1.0.0"
 }

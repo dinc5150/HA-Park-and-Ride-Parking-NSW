@@ -13,7 +13,7 @@ you control.
 **Home Assistant Marketplace (2026.11 and later)**
 
 1. Go to *Settings → Marketplace*. On your first visit, select **I understand the risks and agree**.
-2. Select **Add from link** (top right), enter `dinc5150/HA-Park-and-Ride-Parking-NSW` in **GitHub link**,
+2. Select **Add from link** (top right), enter `https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW` in **GitHub link**,
    and select **Add**. If asked for a **Type**, choose **Integration**.
    The first time you add a link, the Marketplace asks you to sign in with GitHub: select **Continue**, open
    the GitHub link it shows, enter the code and approve.
@@ -119,7 +119,6 @@ Python 3.13 / Home Assistant 2025.1+ . CI runs hassfest, HACS validation and the
 
 ## Before publishing
 
-- Replace `your-github-username` in `manifest.json` (codeowners, documentation, issue tracker).
 - Push a tagged GitHub release (e.g. `v0.2.0`, matching `manifest.json`'s `version`) so the Marketplace (and HACS) can install a pinned version.
 - Each user needs their own Open Data Hub key; never commit one.
 
