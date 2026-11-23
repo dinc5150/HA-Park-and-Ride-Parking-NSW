@@ -69,10 +69,6 @@ Entities go **unavailable** if a poll fails or a car park disappears from the fe
 - Each car park updates on its own schedule (from every 15 seconds to every ~10 minutes), so polling more often than every few minutes rarely helps.
 - `MessageDate` carries no timezone; it is Sydney local time (confirmed against the live feed).
 
-### Upgrading from 0.1.0
-
-0.1.0 read the transportnsw.info website. 0.2.0 uses the official API, so an existing entry will ask for an API key. Car park ids may differ between the two sources, so if the sensors show unavailable, remove the integration and add it again.
-
 ## Examples
 
 Dashboard card:
@@ -119,7 +115,7 @@ Python 3.13 / Home Assistant 2025.1+ . CI runs hassfest, HACS validation and the
 
 ## Before publishing
 
-- Push a tagged GitHub release (e.g. `v0.2.0`, matching `manifest.json`'s `version`) so the Marketplace (and HACS) can install a pinned version.
+- Push a tagged GitHub release (e.g. `v1.0.0`, matching `manifest.json`'s `version`) so the Marketplace (and HACS) can install a pinned version.
 - Each user needs their own Open Data Hub key; never commit one.
 
 ## Attribution
