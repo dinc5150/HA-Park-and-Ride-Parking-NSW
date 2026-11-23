@@ -10,7 +10,20 @@ you control.
 
 ## Install
 
-**HACS (custom repository)**
+**Home Assistant Marketplace (2026.11 and later)**
+
+1. Go to *Settings → Marketplace*. On your first visit, select **I understand the risks and agree**.
+2. Select **Add from link** (top right), enter `dinc5150/HA-Park-and-Ride-Parking-NSW` in **GitHub link**,
+   and select **Add**. If asked for a **Type**, choose **Integration**.
+   The first time you add a link, the Marketplace asks you to sign in with GitHub: select **Continue**, open
+   the GitHub link it shows, enter the code and approve.
+3. Open **Park and Ride (Transport NSW)**, select **Install**, check the version, then select **Install** again.
+4. The setup flow opens straight away, with no restart needed. If it doesn't, add the integration from
+   *Settings → Devices & services*. If a repair under *Settings → System → Repairs* asks for a restart, restart.
+
+Updates appear under *Settings → Updates* and need a restart.
+
+**HACS (Home Assistant 2026.10 and earlier)**
 
 1. HACS → ⋮ → *Custom repositories* → add this repo's URL, category **Integration**.
 2. Install **Park and Ride (Transport NSW)** and restart Home Assistant.
@@ -107,7 +120,7 @@ Python 3.13 / Home Assistant 2025.1+ . CI runs hassfest, HACS validation and the
 ## Before publishing
 
 - Replace `your-github-username` in `manifest.json` (codeowners, documentation, issue tracker).
-- Push a tagged GitHub release (e.g. `v0.2.0`, matching `manifest.json`'s `version`) so HACS can install a pinned version.
+- Push a tagged GitHub release (e.g. `v0.2.0`, matching `manifest.json`'s `version`) so the Marketplace (and HACS) can install a pinned version.
 - Each user needs their own Open Data Hub key; never commit one.
 
 ## Attribution
