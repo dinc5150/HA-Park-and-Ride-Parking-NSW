@@ -1,0 +1,13 @@
+{
+  "domain": "park_and_ride",
+  "name": "Park and Ride (Transport NSW)",
+  "codeowners": ["@your-github-username"],
+  "config_flow": true,
+  "documentation": "https://github.com/your-github-username/ha-park-and-ride",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/your-github-username/ha-park-and-ride/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.2.0"
+}

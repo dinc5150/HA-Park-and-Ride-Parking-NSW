@@ -1,0 +1,78 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Park and Ride",
+        "description": "This integration uses the official Transport for NSW Open Data Car Park API, which needs a free API key. Sign up at {portal_url}, create an application, add the Car Park API to it, and paste the key here.",
+        "data": {
+          "api_key": "API key"
+        },
+        "data_description": {
+          "api_key": "The key from your Open Data Hub application. Pasting the whole 'apikey ...' value also works."
+        }
+      },
+      "car_parks": {
+        "title": "Choose car parks",
+        "description": "Choose the Park&Ride car parks to track. You can change this later.",
+        "data": {
+          "car_parks": "Car parks",
+          "scan_interval": "Update interval"
+        },
+        "data_description": {
+          "car_parks": "One or more car parks. Each becomes a device with its own sensors.",
+          "scan_interval": "How often to check for new availability, in minutes."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update your API key",
+        "description": "Transport NSW rejected the saved API key. Enter a working key from {portal_url}.",
+        "data": {
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Transport NSW rejected that API key. Check it is copied in full and that your application has the Car Park API added.",
+      "cannot_connect": "Could not reach Transport NSW (or it is rate limiting requests). Try again shortly.",
+      "unexpected_response": "Transport NSW answered, but in a format this integration doesn't understand. See the integration's debug log.",
+      "no_car_parks": "Select at least one car park.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "reauth_successful": "API key updated.",
+      "single_instance_allowed": "Park and Ride is already set up. Use Configure on the existing entry to change car parks."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Park and Ride options",
+        "data": {
+          "car_parks": "Car parks",
+          "scan_interval": "Update interval"
+        },
+        "data_description": {
+          "car_parks": "Un-ticking a car park removes its device and sensors.",
+          "scan_interval": "How often to check for new availability, in minutes."
+        }
+      }
+    },
+    "error": {
+      "no_car_parks": "Select at least one car park."
+    },
+    "abort": {
+      "invalid_auth": "Transport NSW rejected the saved API key. Re-authenticate from the integration page.",
+      "cannot_connect": "Could not reach Transport NSW. Try again shortly.",
+      "unexpected_response": "Transport NSW answered in a format this integration doesn't understand."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "available_spaces": { "name": "Available spaces" },
+      "occupied_spaces": { "name": "Occupied spaces" },
+      "occupancy": { "name": "Occupancy" },
+      "capacity": { "name": "Capacity" },
+      "last_updated": { "name": "Last updated" }
+    }
+  }
+}

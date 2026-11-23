@@ -1,0 +1,180 @@
+[
+  {
+    "tsn": "213110",
+    "time": "848759779",
+    "spots": "228",
+    "zones": [
+      {
+        "spots": "228",
+        "zone_id": "1",
+        "occupancy": {
+          "loop": "224",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "212"
+        },
+        "zone_name": "MainArea",
+        "parent_zone_id": "0"
+      }
+    ],
+    "ParkID": 1,
+    "location": {
+      "suburb": "Ashfield",
+      "address": "Brown Street",
+      "latitude": "-33.888104",
+      "longitude": "151.126577"
+    },
+    "occupancy": {
+      "loop": null,
+      "total": "224",
+      "monthlies": "0",
+      "open_gate": "0",
+      "transients": "213"
+    },
+    "MessageDate": "2026-11-23T14:36:19",
+    "facility_id": "486",
+    "facility_name": "Park&Ride - Ashfield",
+    "tfnsw_facility_id": "213110TPR001"
+  },
+  {
+    "tsn": "221710",
+    "time": "848759926",
+    "spots": "259",
+    "zones": [
+      {
+        "spots": "259",
+        "zone_id": "2",
+        "occupancy": {
+          "loop": "246",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "178"
+        },
+        "zone_name": "MainArea",
+        "parent_zone_id": "0"
+      }
+    ],
+    "ParkID": 3,
+    "location": {
+      "suburb": "Kogarah",
+      "address": "2 Railway Street",
+      "latitude": "-33.96369941",
+      "longitude": "151.1319494"
+    },
+    "occupancy": {
+      "loop": null,
+      "total": "246",
+      "monthlies": "0",
+      "open_gate": "0",
+      "transients": "180"
+    },
+    "MessageDate": "2026-11-23T14:38:46",
+    "facility_id": "487",
+    "facility_name": "Park&Ride - Kogarah",
+    "tfnsw_facility_id": "221710TPR001"
+  },
+  {
+    "tsn": "214710",
+    "time": "848759929",
+    "spots": "1613",
+    "zones": [
+      {
+        "spots": "874",
+        "zone_id": "4",
+        "occupancy": {
+          "loop": "598",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "712"
+        },
+        "zone_name": "Multi Level",
+        "parent_zone_id": "0"
+      },
+      {
+        "spots": "739",
+        "zone_id": "5",
+        "occupancy": {
+          "loop": "191",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "220"
+        },
+        "zone_name": "on grade",
+        "parent_zone_id": "0"
+      },
+      {
+        "spots": "0",
+        "zone_id": "0",
+        "occupancy": {
+          "loop": "0",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "0"
+        },
+        "zone_name": "",
+        "parent_zone_id": "0"
+      },
+      {
+        "spots": "0",
+        "zone_id": "0",
+        "occupancy": {
+          "loop": "0",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "0"
+        },
+        "zone_name": "",
+        "parent_zone_id": "0"
+      },
+      {
+        "spots": "0",
+        "zone_id": "0",
+        "occupancy": {
+          "loop": "0",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "0"
+        },
+        "zone_name": "",
+        "parent_zone_id": "0"
+      },
+      {
+        "spots": "0",
+        "zone_id": "0",
+        "occupancy": {
+          "loop": "0",
+          "total": null,
+          "monthlies": "0",
+          "open_gate": null,
+          "transients": "0"
+        },
+        "zone_name": "",
+        "parent_zone_id": "0"
+      }
+    ],
+    "ParkID": 4,
+    "location": {
+      "suburb": "Seven Hills",
+      "address": "Terminus Road",
+      "latitude": "-33.77304548",
+      "longitude": "150.9367514"
+    },
+    "occupancy": {
+      "loop": null,
+      "total": "875",
+      "monthlies": "0",
+      "open_gate": "0",
+      "transients": "876"
+    },
+    "MessageDate": "2026-11-23T14:38:49",
+    "facility_id": "488",
+    "facility_name": "Park&Ride - Seven Hills"
+  }
+]
