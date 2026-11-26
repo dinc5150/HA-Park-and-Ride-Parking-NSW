@@ -13,20 +13,27 @@ you control.
 **Home Assistant Marketplace (2026.11 and later)**
 
 1. Go to *Settings → Marketplace*. On your first visit, select **I understand the risks and agree**.
-2. Select **Add from link** (top right), enter `https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW` in **GitHub link**,
-   and select **Add**. If asked for a **Type**, choose **Integration**.
-   The first time you add a link, the Marketplace asks you to sign in with GitHub: select **Continue**, open
-   the GitHub link it shows, enter the code and approve.
-3. Open **Park and Ride (Transport NSW)**, select **Install**, check the version, then select **Install** again.
+2. Search for **Park and Ride (Transport NSW)** and open it.
+3. Select **Install**, check the version, then select **Install** again.
 4. The setup flow opens straight away, with no restart needed. If it doesn't, add the integration from
    *Settings → Devices & services*. If a repair under *Settings → System → Repairs* asks for a restart, restart.
 
 Updates appear under *Settings → Updates* and need a restart.
 
+If it doesn't show up in the search, add it from its link instead: select **Add from link** (top right),
+enter `https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW` in **GitHub link**, and select **Add**.
+If asked for a **Type**, choose **Integration**. The first time you add a link, the Marketplace asks you to
+sign in with GitHub: select **Continue**, open the GitHub link it shows, enter the code and approve.
+Then continue from step 3.
+
 **HACS (Home Assistant 2026.10 and earlier)**
 
-1. HACS → ⋮ → *Custom repositories* → add this repo's URL, category **Integration**.
-2. Install **Park and Ride (Transport NSW)** and restart Home Assistant.
+1. Open HACS and search for **Park and Ride (Transport NSW)**.
+2. Open it, select **Download**, then restart Home Assistant.
+
+If it doesn't show up in the search (for example, on an older HACS), add it as a custom repository instead:
+HACS → ⋮ → *Custom repositories* → add `https://github.com/dinc5150/HA-Park-and-Ride-Parking-NSW`
+with category **Integration**, then download it and restart as above.
 
 **Manual**: copy `custom_components/park_and_ride` into your Home Assistant `config/custom_components/` folder and restart.
 
